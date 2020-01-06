@@ -1,1 +1,2 @@
-class Atrist
+class Atrist < ActiveRecord::Base
+end
