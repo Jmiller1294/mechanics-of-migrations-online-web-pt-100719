@@ -6,7 +6,10 @@ class CreateArtists < ActiveRecord::Migration[5.2]
   end
 end
 
-
+def change
+  create_table :artists do |t|
+  end
+end
 
 sql = <<-SQL 
 CREATE TABLE IF NOT EXISTS artists (
